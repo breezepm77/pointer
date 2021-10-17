@@ -1,32 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 body {
-  background: url("/img/background.png");
+  background-image: url("/img/background.png");
   width: 100%;
   height: 100%;
-  background-size: 100%;
-  position: absolute;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-* ::after, *::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
 }
 
 .container {
-  max-width: 1950px;
+  max-width: 1350px;
   margin: 0 auto;
-  padding: 0 10px;
-  max-height: 100%;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 1350px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 350px;
+  }
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -372,6 +374,11 @@ template {
   display: none;
 }
 
+.stroysa {
+  max-width: 100%;
+  padding: 0;
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -380,7 +387,6 @@ template {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 88px;
-  max-width: 100%;
   margin-left: -13.6px;
 }
 
@@ -578,15 +584,19 @@ template {
   margin-top: 400px;
 }
 
+@media screen and (max-width: 1037px) {
+  .form {
+    margin: 0;
+  }
+}
+
 .header {
   background: #243047;
   -webkit-box-shadow: 0px 0px 30px #7097E5;
           box-shadow: 0px 0px 30px #7097E5;
-  width: 100%;
   padding-top: 35px;
   padding-bottom: 20px;
   max-width: 100%;
-  max-height: 100%;
 }
 
 .header__list {
