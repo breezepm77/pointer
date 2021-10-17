@@ -20,6 +20,15 @@ img {
 }
 
 @media screen and (max-width: 1350px) {
+  body {
+    background-size: 1176px 1000px;
+    background-image: url("/img/background.png");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+  }
   .container {
     max-width: 800px;
   }
