@@ -108,9 +108,10 @@
     }
     &__icon{
         position: absolute;
-        margin-left: 210px;
-        margin-top: 41px;
+        margin-left: 208px;
+        margin-top: 38px;
     }
+
     &__link{
         text-decoration: none;
         color: #F8F8F8;
@@ -130,6 +131,10 @@
         position: absolute;
         margin-top: 400px;
     }
+}
+.eys-show{
+    width: 30px;
+    height: 27px;
 }
 
 

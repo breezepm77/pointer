@@ -41,6 +41,8 @@
               id="Name"
               type="text"
               placeholder="Enter your name"
+              required
+              minlength="5" maxlength="30"
             />
           </label>
           <label class="form__label--password" for="Password">
@@ -50,11 +52,16 @@
               id="Password"
               type="password"
               placeholder="Enter password"
-            /><img class="form__icon" src="./img/eyes.svg" alt="img" />
+              required
+              minlength="8" maxlength="10"
+            />
+            <img class="form__icon eys-show " src="./img/eyes.svg" alt="img" />
+            <img class="form__icon eys-hiden" src="./icon/hiden-eye.svg" alt="">
           </label>
           <a class="form__link" href="./login.html"> Enter </a>
         </form>
       </div>
     </div>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
