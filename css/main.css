@@ -583,12 +583,6 @@ template {
   margin-top: 400px;
 }
 
-@media screen and (max-width: 1037px) {
-  .form {
-    margin: 0;
-  }
-}
-
 .header {
   background: #243047;
   -webkit-box-shadow: 0px 0px 30px #7097E5;
